@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arielpc.proyecto001.MainActivity">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:id="@+id/bCalc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cCalc"
+                    android:text="Calculadora" />
+
+                <Button
+                    android:id="@+id/bLinearLayoutVertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cLinearLayoutVertical"
+                    android:text="Linear Layout Vertical" />
+
+                <Button
+                    android:id="@+id/bLinearLayoutHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cLinearLayoutHorizontal"
+                    android:text="Linear Layout Horizontal" />
+
+                <Button
+                    android:id="@+id/bRelativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cRelativeLayout"
+                    android:text="Relative Layout" />
+
+                <Button
+                    android:id="@+id/bTableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cTableLayout"
+                    android:text="Table Layout" />
+
+                <Button
+                    android:id="@+id/bFrameLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cFrameLayout"
+                    android:text="Frame Layout" />
+
+                <Button
+                    android:id="@+id/bListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cListView"
+                    android:layout_gravity="center"
+                    android:text="List View" />
+
+                <Button
+                    android:id="@+id/bGridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cGridView"
+                    android:layout_gravity="center"
+                    android:text="Grid View" />
+
+                <Button
+                    android:id="@+id/bCustomAdapter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cCustomAdapter"
+                    android:layout_gravity="center"
+                    android:text="Custom Adapter" />
+
+                <Button
+                    android:id="@+id/bStyles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cStyles"
+                    android:layout_gravity="center"
+                    android:text="Styles" />
+
+                <Button
+                    android:id="@+id/bAutoComplete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cAutoComplete"
+                    android:layout_gravity="center"
+                    android:text="Auto Complete" />
+
+        </LinearLayout>
+</ScrollView>
