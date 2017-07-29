@@ -74,8 +74,8 @@
                     android:id="@+id/bCustomAdapter"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="cCustomAdapter"
                     android:layout_gravity="center"
+                    android:onClick="cCustomAdapter"
                     android:text="Custom Adapter" />
 
                 <Button
@@ -95,14 +95,29 @@
                     android:text="Auto Complete" />
 
 
-            <Button
-                android:id="@+id/bPasarDataActivity"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="cPasarDataActivity"
-                android:layout_gravity="center"
-                android:text="Pasar Data Activity" />
+                <Button
+                    android:id="@+id/bPasarDataActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cPasarDataActivity"
+                    android:layout_gravity="center"
+                    android:text="Pasar Data Activity" />
 
+                <Button
+                    android:id="@+id/btnAlertDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="cAlertDialog"
+                    android:layout_gravity="center"
+                    android:text="Ejemplo de Alerta" />
+
+                <Button
+                    android:id="@+id/btnBoxes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="cBoxex"
+                    android:text="Varios Boxes" />
 
         </LinearLayout>
 </ScrollView>

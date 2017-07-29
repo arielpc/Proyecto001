@@ -27,7 +27,9 @@
         <activity android:name=".TableLayoutActivity" />
         <activity android:name=".StylesActivity" />
         <activity android:name=".AutoCompleteActivity" />
-        <activity android:name=".PasarDataActivity"></activity>
+        <activity android:name=".PasarDataActivity" />
+        <activity android:name=".AlertButtonActivity" />
+        <activity android:name=".BoxexActivity"></activity>
     </application>
 
 </manifest>

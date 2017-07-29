@@ -1,5 +1,6 @@
 package com.example.arielpc.proyecto001;
 
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
@@ -74,5 +75,16 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, PasarDataActivity.class);
         startActivity(i);
     }
+
+    public void cAlertDialog(View view) {
+        Intent i = new Intent(this, AlertButtonActivity.class);
+        startActivity(i);
+    }
+
+    public void cBoxex(View view) {
+        Intent i = new Intent(this, BoxexActivity.class);
+        startActivity(i);
+    }
+
 
 }
