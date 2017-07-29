@@ -17,7 +17,7 @@ public class AutoCompleteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_auto_complete);
 
-        tvOtro = (TextView)findViewById(R.id.tvOtro);
+        tvOtro = (TextView)findViewById(R.id.tvOtro); 
 
         String[] data = {"Cat", "Dog", "Mouse", "Elephant", "Unicorn"};
         AutoCompleteTextView tvAutoComplete = (AutoCompleteTextView)findViewById(R.id.tvAutoComplete);
