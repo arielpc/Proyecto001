@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.arielpc.proyecto001.AutoCompleteActivity">
 
     <AutoCompleteTextView
@@ -11,5 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
+
+    <TextView
+        android:id="@+id/tvOtro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aqui va el otro Valor: "
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
 
 </LinearLayout>

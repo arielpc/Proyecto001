@@ -70,4 +70,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void cPasarDataActivity(View view) {
+        Intent i = new Intent(this, PasarDataActivity.class);
+        startActivity(i);
+    }
+
 }

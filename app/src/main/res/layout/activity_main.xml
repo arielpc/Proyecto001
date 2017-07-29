@@ -94,5 +94,15 @@
                     android:layout_gravity="center"
                     android:text="Auto Complete" />
 
+
+            <Button
+                android:id="@+id/bPasarDataActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="cPasarDataActivity"
+                android:layout_gravity="center"
+                android:text="Pasar Data Activity" />
+
+
         </LinearLayout>
 </ScrollView>
