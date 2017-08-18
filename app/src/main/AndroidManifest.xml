@@ -29,7 +29,13 @@
         <activity android:name=".AutoCompleteActivity" />
         <activity android:name=".PasarDataActivity" />
         <activity android:name=".AlertButtonActivity" />
-        <activity android:name=".BoxexActivity"></activity>
+        <activity android:name=".BoxexActivity" />
+        <activity android:name=".SpinnerLayout" />
+        <activity android:name=".TimePickerActivity" />
+        <activity android:name=".DatePickerActivity" />
+        <activity android:name=".DateAndTimePicker" />
+        <activity android:name=".DonacionesActivity" />
+        <activity android:name=".ReporteDonaciones"></activity>
     </application>
 
 </manifest>

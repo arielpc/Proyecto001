@@ -119,5 +119,46 @@
                     android:onClick="cBoxex"
                     android:text="Varios Boxes" />
 
+                <Button
+                    android:id="@+id/btnSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="cSpinner"
+                    android:text="Spinner" />
+
+                <Button
+                    android:id="@+id/btnTimePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="cTimePicker"
+                    android:text="Time Picker" />
+
+                <Button
+                    android:id="@+id/btnDatePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="cDatePicker"
+                    android:text="Date Picker" />
+
+                <Button
+                    android:id="@+id/btnDateAndTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="cDateAndTime"
+                    android:text="Date and Time Picker" />
+
+            <Button
+                android:id="@+id/btnDonaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="cDonaciones"
+                android:text="Donaciones" />
+
+
         </LinearLayout>
 </ScrollView>

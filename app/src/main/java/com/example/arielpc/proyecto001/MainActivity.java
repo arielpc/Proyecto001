@@ -86,5 +86,28 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void cSpinner(View view) {
+        Intent i = new Intent(this, SpinnerLayout.class);
+        startActivity(i);
+    }
 
+    public void cTimePicker(View view) {
+        Intent i = new Intent(this, TimePickerActivity.class);
+        startActivity(i);
+    }
+
+    public void cDatePicker(View view) {
+        Intent i = new Intent(this, DatePickerActivity.class);
+        startActivity(i);
+    }
+
+    public void cDateAndTime(View view) {
+        Intent i = new Intent(this, DateAndTimePicker.class);
+        startActivity(i);
+    }
+
+    public void cDonaciones(View view) {
+        Intent i = new Intent(this, DonacionesActivity.class);
+        startActivity(i);
+    }
 }
